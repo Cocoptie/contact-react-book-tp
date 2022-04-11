@@ -10,12 +10,12 @@ Create a branch named `firstname-lastname` and push your work on it.
 
 In the project directory, you can run:
 
-### `yarn start:back`
+### `npm run dev`
 
 Runs a fake local api server.\
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-### `yarn start:front`
+### `npm run server`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
