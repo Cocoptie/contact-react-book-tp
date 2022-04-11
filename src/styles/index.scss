@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #1f2029;
+  background-color: #fff;
+  background-image: url('https://assets.codepen.io/1462889/back-page.svg');
+  background-position: center;
+  background-size: 101%;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contacts{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contactButton{
+  background-color: #ffeba7;
+}
+
+.wrapperContact{
+  text-align: center;
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px 1px #102770, -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: white;
+}
+
+.contactContentName{
+  display: flex;
+  justify-content: center;
+}
+
+.contactName{
+ padding: 5px;
+}
+
+
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  transition: all 200ms linear;
+  border-radius: 8px;
+  width: 120px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: #102770;
+  color: #ffeba7;
+  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+}
+
+.createButton{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  transition: all 200ms linear;
+  border-radius: 8px;
+  width: 160px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: #102770;
+  color: #ffeba7;
+  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+}
+
+.button:hover{
+  background-color: #ffeba7;
+  color: #102770;
+}
+
+
+.createButton:hover{
+  background-color: #ffeba7;
+  color: #102770;
+}
+
+.searchBar{
+  width: 500px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+  padding-left: 15px;
+  background-color: #102770;
+  color: white;
+}
+
+.searchBar::placeholder {
+  color: white;
+}
+
+.buttonPagination{
+font-size: 20px;
+padding: 8px;
+}
+
+
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+@import "modal"
